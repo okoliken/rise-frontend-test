@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/src/assets/font/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.investors{
+    filter: brightness(0.75) contrast(130%) saturate(130%);
+    mix-blend-mode: multiply;
+}

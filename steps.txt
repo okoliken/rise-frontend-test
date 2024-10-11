@@ -1,0 +1,10 @@
+---Project steps---
+
+** project setup with neccessary tools to deliver(always deliver)
+** add font sizes and theme colors
+** export assets
+** build with sematics in mind(Correct/Semantic use of HTML elements)
+** start with Mobile reponsiveness to Desktop(Make sure your implementation is responsive (Mobile and Desktop screens provided))
+** Include Accessibility
+** Try animate stuff if possible
+
