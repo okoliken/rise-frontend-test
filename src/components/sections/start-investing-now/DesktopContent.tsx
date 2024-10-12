@@ -71,7 +71,7 @@ export const DesktopContent = () => {
                         better.
                     </p>
                     <div className="text-teal-1 font-semibold gap-x-2.5 flex items-center">
-                        <span className="text-lg">Start Investing Now</span>
+                        <span className="text-lg cursor-pointer hover:underline">Start Investing Now</span>
                         <Arrow />
                     </div>
                 </div>
@@ -96,7 +96,7 @@ export const DesktopContent = () => {
                         all in one place.
                     </p>
                     <div className="text-teal-1 font-semibold gap-x-2.5 flex items-center">
-                        <span className="text-lg">Start Investing Now</span>
+                        <span className="text-lg cursor-pointer hover:underline">Start Investing Now</span>
                         <Arrow />
                     </div>
                 </div>
@@ -119,7 +119,7 @@ export const DesktopContent = () => {
                         You can invest towards a goal on Rise--retirement, higher <br className="hidden lg:block" /> education, save for your home or travel budgets. Or create <br className="hidden md:block" /> a goal of your own and invest periodically to achieve them.
                     </p>
                     <div className="text-teal-1 font-semibold gap-x-2.5 flex items-center">
-                        <span className="text-lg">Start Investing Now</span>
+                        <span className="text-lg cursor-pointer hover:underline">Start Investing Now</span>
                         <Arrow />
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export const DesktopContent = () => {
                         Our Auto-invest feature makes it easy to stay consistent, <br className="hidden lg:block" />  even when you forget. Set a funding amount, frequency <br className="hidden md:block" />  and payment method and Rise will automatically fund <br className="hidden md:block" />  your investment, on schedule.
                     </p>
                     <div className="text-teal-1 font-semibold gap-x-2.5 flex items-center">
-                        <span className="text-lg">Start Investing Now</span>
+                        <span className="text-lg cursor-pointer hover:underline">Start Investing Now</span>
                         <Arrow />
                     </div>
                 </div>
