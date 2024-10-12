@@ -1,5 +1,5 @@
-import RiseInvestorsMobile from "../../assets/hero/investors-mobile.svg";
-import RiseInvestors from "../../assets/hero/investors.png";
+// import RiseInvestorsMobile from "../../assets/hero/investors-mobile.svg";
+// import RiseInvestors from "../../assets/hero/investors.png";
 import { MobileContent } from "./start-investing-now/MobileContent.tsx";
 import { DesktopContent } from "./start-investing-now/DesktopContent.tsx";
 
