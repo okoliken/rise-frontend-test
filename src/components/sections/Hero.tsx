@@ -4,7 +4,7 @@ import PhoneDesktop from '../../assets/hero/Phone-desktop.png';
 
 export const Hero = () => {
     return (
-        <header className="py-[4.375rem] flex flex-col items-center lg:flex-row lg:justify-between lg:py-[1.438rem] lg:px-6">
+        <header className="py-[4.375rem] flex flex-col items-center lg:flex-row lg:justify-between lg:py-[1.438rem] lg:pl-4 lg:pr-14">
             <section className="flex flex-1 items-center justify-center lg:items-start lg:justify-start flex-col gap-4 px-2 lg:px-0 xl:pt-0">
                 <h1
                     className="text-teal-1 font-semibold text-[2.5rem] lg:text-[3.5rem] text-center tracking-tighter leading-9 lg:leading-[3.75rem] lg:mb-2"

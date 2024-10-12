@@ -16,7 +16,7 @@ export const AssetClasses = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 px-9 gap-y-[2.875rem] lg:gap-x-[2.875rem]" role="list">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[2.875rem] md:gap-x-[2.875rem] container mx-auto mzx-w-lg" role="list">
                 <article role="listitem" className="border-2 border-rise-border rounded-[0.313rem] h-full pb-[2.563rem]">
                     <div className="h-[9.375rem] bg-rise-orange-1 relative flex items-center justify-center">
                         <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem] flex items-center justify-center">
@@ -25,7 +25,7 @@ export const AssetClasses = () => {
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Stocks</h4>
-                        <p className="text-rise-body leading-6 text-center">
+                        <p className="text-rise-body leading-6 text-center px-3">
                             We help you invest and manage your money by investing in our
                             portfolio of 30 high-growth stocks across the US market with our
                             equity portfolio of power stocks.
@@ -38,7 +38,7 @@ export const AssetClasses = () => {
 
                     <div className="flex items-center justify-center">
                         <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6">
-                            <span>Learn how Fixed Income work</span>
+                            <span>Learn how Stocks work</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="10"
@@ -63,10 +63,8 @@ export const AssetClasses = () => {
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Real Estate</h4>
-                        <p className="text-rise-body leading-6 text-center">
-                            We help you invest and manage your money by investing in our
-                            portfolio of 30 high-growth stocks across the US market with our
-                            equity portfolio of power stocks.
+                        <p className="text-rise-body leading-6 text-center px-3">
+                            Our Real Estate plan is the sweet middle. Best for those who want a balance of good returns and medium risk. This plan invests in rented buildings in the US.
                         </p>
                     </div>
                     <p className="text-center text-rise-body p-1.5"><span className="text-[#919fb5]">Historical returns:</span> 14% per annum
@@ -76,7 +74,7 @@ export const AssetClasses = () => {
 
                     <div className="flex items-center justify-center">
                         <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6">
-                            <span>Learn how Fixed Income work</span>
+                            <span>Learn how Real Estate work</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="10"
@@ -101,10 +99,9 @@ export const AssetClasses = () => {
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Fixed Income</h4>
-                        <p className="text-rise-body leading-6 text-center">
-                            We help you invest and manage your money by investing in our
-                            portfolio of 30 high-growth stocks across the US market with our
-                            equity portfolio of power stocks.
+                        <p className="text-rise-body leading-6 text-center px-3">
+                            A low-risk asset perfect for anyone who wants to protect their money in a secure, appreciating currency, i.e. the dollar. For people who want to protect their hard-earned money from inflation while earning steady returns.
+
                         </p>
                     </div>
                     <p className="text-center text-rise-body p-1.5"><span className="text-[#919fb5]">Historical returns:</span> 14% per annum
@@ -133,13 +130,13 @@ export const AssetClasses = () => {
                 </article>
             </div>
 
-            <div className='hidden lg:flex items-center justify-between lg:gap-x-[10rem] pt-[5rem]'>
+            <div className='hidden lg:flex items-center lg:gap-x-[8rem] pt-[5rem] pb-[3rem]'>
                 <img className='w-[23.5rem] flex-1' src={BuildFuture} alt="build wealth" />
 
                 <div className='flex-1'>
-                    <span className='pb-[0.5rem] text-lg'>The  Rise App</span>
-                    <h4 className='pb-4 text-[2.5rem]'>Save for your future</h4>
-                    <p>With Rise, you achieve your financial goals faster. Save for school, your home, vacations, your children’s future and more.
+                    <span className='pb-[0.5rem] text-lg font-medium'>The  Rise App</span>
+                    <h4 className='pb-4 text-[2.5rem] text-rise-black font-semibold tracking-tighter leading-[3rem]'>Save for your <span className='text-[#8c5ff8]'>future</span></h4>
+                    <p className='text-rise-body leading-6'>With Rise, you achieve your financial goals faster. Save <br className="hidden lg:block" /> for school, your home, vacations, your children’s <br className="hidden lg:block" /> future and more.
                     </p>
                 </div>
             </div>

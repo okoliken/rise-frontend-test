@@ -56,7 +56,7 @@ const FooterSection = ({ title, type, links }: { title: string, type: string, li
 
 export const Footer = () => {
     return (
-        <footer className="px-4 container mx-auto max-w-6xl py-6 xl:py-12 lg:h-[25.938rem]">
+        <footer className="px-4 container mx-auto max-w-6xl py-6 xl:py-12 lg:h-[25.938rem] mt-[2.5rem] lg:mt-[5rem]">
             <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-12 xl:gap-x-[10.063rem]">
                 <section className="flex flex-col gap-y-8">
                     <RiseLogo themeColor="#000" />

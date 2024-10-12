@@ -11,7 +11,7 @@ function App() {
 
   return (
     <RiseLayout>
-      <section className="container mx-auto max-w-6xl">
+      <section className="container mx-auto max-w-6xl px-4 md:px-8">
         <Hero />
         <StartInvestingNow />
         <AssetClasses />
