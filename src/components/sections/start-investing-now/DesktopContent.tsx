@@ -3,7 +3,42 @@ import ChooseWhatsBest from '../../../assets/start-investing-now/choose-whats-be
 import SetInvestment from '../../../assets/start-investing-now/set-investment-gols.svg'
 import AutoInvest from '../../../assets/start-investing-now/auto-invest.svg'
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect, useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export const DesktopContent = () => {
+
+    const sectionsRef = useRef<(HTMLElement | null)[]>([]);
+
+   
+    useEffect(() => {
+        sectionsRef.current.forEach((section) => {
+            if (section) {
+                gsap.fromTo(
+                    section,
+                    { opacity: 0, y: 100, scale: 0.9 }, 
+                    {
+                        opacity: 1,
+                        y: 0,
+                        scale: 1,
+                        duration: 1.5, 
+                        ease: "power4.out", 
+                        scrollTrigger: {
+                            trigger: section,
+                            start: "top 80%",
+                            end: "bottom 20%",
+                            toggleActions: "play none none reverse",
+                            scrub: 0.5, 
+                        },
+                    }
+                );
+            }
+        });
+    }, []);
+    
     const Arrow = () => (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +57,7 @@ export const DesktopContent = () => {
 
     return (
         <div className="hidden md:block">
-            <section className="flex items-center pt-[2.525rem]" aria-labelledby="invest-dollars-heading">
+            <section ref={(el) => (sectionsRef.current[0] = el)}  className="flex items-center pt-[2.525rem]" aria-labelledby="invest-dollars-heading">
                 <div className="flex-1 text-left">
                     <header>
                         <h2 id="invest-dollars-heading" className="text-rise-black font-semibold pb-3 text-[2rem]">
@@ -45,7 +80,7 @@ export const DesktopContent = () => {
                 </div>
             </section>
 
-            <section className="flex flex-row-reverse items-center gap-x-[4.625rem]" aria-labelledby="choose-best-heading">
+            <section ref={(el) => (sectionsRef.current[1] = el)} className="flex flex-row-reverse items-center gap-x-[4.625rem]" aria-labelledby="choose-best-heading">
                 <div className="flex-1 text-left">
                     <header>
                         <h2 id="choose-best-heading" className="text-rise-black font-semibold pb-3 text-[2rem]">
@@ -70,7 +105,7 @@ export const DesktopContent = () => {
                 </div>
             </section>
 
-            <section className="flex flex-row-reverse items-center justify-between" aria-labelledby="set-goals-heading">
+            <section ref={(el) => (sectionsRef.current[2] = el)} className="flex flex-row-reverse items-center justify-between" aria-labelledby="set-goals-heading">
                 <div className="flex-1">
                     <img src={SetInvestment} className="w-full" alt="Set investment goals graphic" />
                 </div>
@@ -90,7 +125,7 @@ export const DesktopContent = () => {
                 </div>
             </section>
 
-            <section className="flex items-center gap-x-[4.625rem]" aria-labelledby="auto-invest-heading">
+            <section ref={(el) => (sectionsRef.current[3] = el)} className="flex items-center gap-x-[4.625rem]" aria-labelledby="auto-invest-heading">
                 <div className="flex-1">
                     <img src={AutoInvest} className="w-full" alt="Auto invest graphic" />
                 </div>

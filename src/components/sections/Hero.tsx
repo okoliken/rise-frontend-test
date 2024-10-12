@@ -12,16 +12,17 @@ export const Hero = () => {
         bubbleRefs.current.forEach((bubble) => {
             if (bubble) {
                 gsap.to(bubble, {
-                    y: "random(-20, 20)",
-                    x: "random(-20, 20)",
-                    duration: "random(4, 3)",
+                    y: "random(-50, 50)", 
+                    x: "random(-50, 50)",
+                    duration: "random(2, 5)",
                     repeat: -1,
                     yoyo: true,
-                    ease: "sine.inOut",
+                    ease: "power2.inOut", 
                 });
             }
         });
     }, []);
+    
 
     const desktopBubbleSvg = (size: number, index: number) => (
         <svg
