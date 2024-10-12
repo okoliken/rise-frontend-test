@@ -1,6 +1,6 @@
 import { StoreButton } from "../ui/StoreButton";
 import PhoneMobile from '../../assets/hero/phone-mobile.png';
-import PhoneDesktop from '../../assets/hero/Phone-desktop.png';
+import PhoneDesktop from '../../assets/hero/phone-desktop.png';
 
 export const Hero = () => {
     return (
