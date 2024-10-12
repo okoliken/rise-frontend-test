@@ -45,7 +45,13 @@ export const Header = () => {
                 </div>
                 <nav className="lg:block hidden">
                     <ul className="flex items-center gap-x-[1.438rem]">
-                        <li><a className="leading-[1.2rem] text-teal-1" href="#">Home</a></li>
+                        <li className='flex items-center flex-col transform translate-y-1'>
+                            <a className="leading-[1.2rem] text-teal-1 font-bold" href="#">Home</a>
+                            <svg className='transform translate-y-[0.5rem]' width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="#07969E" />
+                            </svg>
+
+                        </li>
                         <li><a className="leading-[1.2rem] text-teal-1" href="#">Products</a></li>
                         <li><a className="leading-[1.2rem] text-teal-1" href="#">Investment Club</a></li>
                         <li><a className="leading-[1.2rem] text-teal-1" href="#">Blog</a></li>
@@ -54,21 +60,21 @@ export const Header = () => {
                     </ul>
                 </nav>
 
-                <button 
+                <button
                     className="block lg:hidden"
-                    aria-label="Toggle navigation menu" 
+                    aria-label="Toggle navigation menu"
                     onClick={toggleMenu}
                 >
-                    <img 
-                        src={isMenuOpen ? OpenedMenu : ClosedMenu} 
-                        alt={isMenuOpen ? "Close menu" : "Open menu"} 
+                    <img
+                        src={isMenuOpen ? OpenedMenu : ClosedMenu}
+                        alt={isMenuOpen ? "Close menu" : "Open menu"}
                         className="transition-transform duration-300 ease-in-out"
                         style={{ transform: isMenuOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}
                     />
                 </button>
             </div>
-            <nav 
-                ref={mobileNavRef} 
+            <nav
+                ref={mobileNavRef}
                 className="lg:hidden overflow-hidden mobile"
                 style={{ height: 0, opacity: 0 }}
             >

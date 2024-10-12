@@ -14,7 +14,7 @@ export const Hero = () => {
                 gsap.to(bubble, {
                     y: "random(-20, 20)",
                     x: "random(-20, 20)",
-                    duration: "random(3, 5)",
+                    duration: "random(4, 3)",
                     repeat: -1,
                     yoyo: true,
                     ease: "sine.inOut",
