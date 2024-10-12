@@ -1,3 +1,8 @@
+import Stock from '../../assets/svgs/stock.svg'
+import RealEstate from '../../assets/svgs/real-estate.svg'
+import FixedIncome from '../../assets/svgs/fixed-income.svg'
+import BuildFuture from '../../assets/build-future.png'
+
 export const AssetClasses = () => {
     return (
         <section className="pt-[6.25rem]" aria-labelledby="asset-classes-heading">
@@ -11,10 +16,12 @@ export const AssetClasses = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 px-9 gap-y-[2.875rem]" role="list">
+            <div className="grid grid-cols-1 lg:grid-cols-3 px-9 gap-y-[2.875rem] lg:gap-x-[2.875rem]" role="list">
                 <article role="listitem" className="border-2 border-rise-border rounded-[0.313rem] h-full pb-[2.563rem]">
                     <div className="h-[9.375rem] bg-rise-orange-1 relative flex items-center justify-center">
-                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem]"></div>
+                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem] flex items-center justify-center">
+                            <img src={Stock} alt="Stocks" />
+                        </div>
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Stocks</h4>
@@ -50,7 +57,9 @@ export const AssetClasses = () => {
                 </article>
                 <article className="border-2 border-rise-border rounded-[0.313rem] h-full pb-[2.563rem]">
                     <div className="h-[9.375rem] bg-rise-indigo-1 relative flex items-center justify-center">
-                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem]"></div>
+                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem] flex items-center justify-center">
+                            <img src={RealEstate} alt="Stocks" />
+                        </div>
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Real Estate</h4>
@@ -85,8 +94,10 @@ export const AssetClasses = () => {
                     </div>
                 </article>
                 <article role="listitem" className="border-2 border-rise-border rounded-[0.313rem] h-full pb-[2.563rem]">
-                    <div className="h-[9.375rem] bg-rise-teal-1 relative flex items-center justify-center">
-                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem]"></div>
+                    <div className="h-[9.375rem] bg-rise-teal-4 relative flex items-center justify-center ">
+                        <div className="h-[7.188rem] w-[7.188rem] bg-white rounded-full absolute bottom-0 transform translate-y-[4.813rem] flex items-center justify-center">
+                            <img src={FixedIncome} alt="Stocks" />
+                        </div>
                     </div>
                     <div className="mt-[4.563rem] text-center p-1.5 flex items-center flex-col gap-y-4">
                         <h4 className="text-2xl font-semibold">Fixed Income</h4>
@@ -120,6 +131,17 @@ export const AssetClasses = () => {
                         </p>
                     </div>
                 </article>
+            </div>
+
+            <div className='hidden lg:flex items-center justify-between lg:gap-x-[10rem] pt-[5rem]'>
+                <img className='w-[23.5rem] flex-1' src={BuildFuture} alt="build wealth" />
+
+                <div className='flex-1'>
+                    <span className='pb-[0.5rem] text-lg'>The  Rise App</span>
+                    <h4 className='pb-4 text-[2.5rem]'>Save for your future</h4>
+                    <p>With Rise, you achieve your financial goals faster. Save for school, your home, vacations, your children’s future and more.
+                    </p>
+                </div>
             </div>
         </section>
     );

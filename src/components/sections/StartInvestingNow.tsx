@@ -1,4 +1,4 @@
-import RiseInvestors from "../../assets/hero/investors.svg";
+import RiseInvestors from "../../assets/hero/investors-mobile.svg";
 import InvestDollarsMobile from "../../assets/start-investing-now/invest-dollars-mobile.svg";
 import ChooseWhatsBestMobile from "../../assets/start-investing-now/choose-whats-best-mobile.svg";
 import SetInvestmentGoals from '../../assets/start-investing-now/set-investment-goals-mobile.svg'

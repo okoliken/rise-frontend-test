@@ -14,7 +14,7 @@ export default {
         'rise-border': '#919FB533',
         'rise-orange-1': '#FFF4F0',
         'rise-indigo-1': '#F6F2FF',
-        'rise-teal-1': '#ECFEFE',
+        'rise-teal-4': '#ECFEFE',
       }
     },
   },

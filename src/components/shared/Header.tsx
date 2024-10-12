@@ -39,8 +39,6 @@ export const Header = () => {
                     </button>
                 </nav>
             </div>
-
-            {/* Mobile menu */}
             {isMenuOpen && (
                 <nav className="lg:hidden block px-4">
                     <ul className="flex flex-col gap-y-2 mt-2">
