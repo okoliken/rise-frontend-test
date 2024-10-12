@@ -37,8 +37,8 @@ export const AssetClasses = () => {
                         <span className="text-[#919fb5]"> Risk Level: Medium</span>
                     </p>
 
-                    <div className="flex items-center justify-center">
-                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6">
+                    <div className="flex items-center justify-center transform lg:translate-y-12">
+                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6 cursor-pointer hover:underline">
                             <span>Learn how Stocks work</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +73,8 @@ export const AssetClasses = () => {
                         <span className="text-[#919fb5]"> Risk Level: Medium</span>
                     </p>
 
-                    <div className="flex items-center justify-center">
-                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6">
+                    <div className="flex items-center justify-center transform lg:translate-y-12">
+                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6 cursor-pointer hover:underline">
                             <span>Learn how Real Estate work</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ export const AssetClasses = () => {
                     </p>
 
                     <div className="flex items-center justify-center">
-                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6">
+                        <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6 cursor-pointer hover:underline">
                             <span>Learn how Fixed Income work</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
