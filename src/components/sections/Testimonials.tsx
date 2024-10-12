@@ -30,7 +30,7 @@ export const Testimonials = () => {
 
 
     return (
-        <div className="mt-[5rem]">
+        <section className="mt-[5rem]">
             <div className="text-center">
                 <h3 className="text-[2rem] lg:text-[2.5rem] font-semibold text-rise-teal-2 mb-4 leading-[1.8rem]">
                     <span className="hidden lg:block">From The People Who Use Rise</span>
@@ -51,6 +51,6 @@ export const Testimonials = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }

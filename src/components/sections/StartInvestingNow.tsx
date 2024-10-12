@@ -6,7 +6,7 @@ import { DesktopContent } from "./start-investing-now/DesktopContent.tsx";
 
 export const StartInvestingNow = () => {
     return (
-        <div className="container mx-auto max-w-6xl">
+        <section className="container mx-auto max-w-6xl">
             <div className="lg:mt-24">
                 <h3 className="text-lg text-rise-grey-white font-bold md:hidden">
                     We are supported by
@@ -26,6 +26,6 @@ export const StartInvestingNow = () => {
             </div>
           <MobileContent />
           <DesktopContent />
-        </div>
+        </section>
     );
 };
