@@ -24,3 +24,24 @@ body{
     filter: brightness(0.75) contrast(130%) saturate(130%);
     mix-blend-mode: multiply;
 }
+
+.we-are-regulated {
+    background-image: url('./assets/svgs/linear-orange.svg'),
+                      url('./assets/svgs/linear-pink.svg'),
+                      url('./assets/svgs/linear-ingido.svg'),
+                      url('./assets/svgs/linear-teal.svg');
+    background-position: top left, bottom left, top right, bottom right;
+    background-repeat: no-repeat;
+  }
+  
+
+  /* To hide scrollbars but still allow scrolling (for specific cases) */
+.scroll-container {
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }

@@ -2,7 +2,7 @@ import RiseTeamMobile from '../../assets/rise-team-mobile.png'
 import { Button } from '../ui/Button'
 export const JoinRiseCommunity = () => {
     return (
-        <div className='mt-[7.25rem] flex items-center flex-col container mx-auto max-w-lg lg:max-w-full lg:flex-row-reverse lg:gap-x-[5.625rem] lg:justify-between'>
+        <div className='mt-[7.25rem] flex items-center flex-col container mx-auto max-w-lg lg:max-w-full lg:flex-row-reverse lg:gap-x-[5.625rem] lg:justify-between lg:pt-[1.438rem]'>
 
             <div className='flex-1'>
                 <img src={RiseTeamMobile} className='w-fit' alt="team at rise" />

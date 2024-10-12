@@ -40,7 +40,7 @@ export const Testimonials = () => {
                 <p className="text-rise-body text-base tracking-tighter leading-[1.465rem] block lg:hidden">We serve over 80,000 amazing users.</p>
             </div>
 
-            <div className="flex items-center justify-between gap-x-6 mt-[2.5rem] overflow-x-scroll overflow-y-hidden">
+            <div className="scroll-container flex items-center justify-between gap-x-6 mt-[2.5rem] overflow-x-scroll overflow-y-hidden">
                 {testimonials.map((testimonial, index) => (
                     <div key={index} className="flex-shrink-0 flex flex-col bg-white border lg:w-[25.563rem] lg:h-[15.5rem] border-rise-teal-4 justify-between w-[26.5rem] gap-y-[4.5rem] p-6 rounded-[0.625rem] shadow-rise-drop-shadow">
                         <p className="text-rise-body leading-6">{testimonial.text}.</p>
