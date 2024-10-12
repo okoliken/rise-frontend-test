@@ -5,6 +5,7 @@ import { AssetClasses } from "./components/sections/AssetClasses"
 import { WeAreRegulated } from "./components/sections/WeAreRegulated"
 import { DownloadRiseApp } from "./components/sections/DownloadRiseApp"
 import { JoinRiseCommunity } from "./components/sections/JoinRiseCommunity"
+import { Testimonials } from "./components/sections/Testimonials"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <AssetClasses />
       </section>
       <WeAreRegulated />
+      <Testimonials />
       <section className="container mx-auto max-w-6xl px-4">
         <JoinRiseCommunity />
         <DownloadRiseApp />

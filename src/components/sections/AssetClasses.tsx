@@ -2,6 +2,7 @@ import Stock from '../../assets/svgs/stock.svg'
 import RealEstate from '../../assets/svgs/real-estate.svg'
 import FixedIncome from '../../assets/svgs/fixed-income.svg'
 import BuildFuture from '../../assets/build-future.png'
+import { Button } from '../ui/Button';
 
 export const AssetClasses = () => {
     return (
@@ -138,6 +139,10 @@ export const AssetClasses = () => {
                     <h4 className='pb-4 text-[2.5rem] text-rise-black font-semibold tracking-tighter leading-[3rem]'>Save for your <span className='text-[#8c5ff8]'>future</span></h4>
                     <p className='text-rise-body leading-6'>With Rise, you achieve your financial goals faster. Save <br className="hidden lg:block" /> for school, your home, vacations, your children’s <br className="hidden lg:block" /> future and more.
                     </p>
+
+                    <Button className='!mt-[2rem] w-full !max-w-[10rem] font-semibold'>
+                      Start Saving
+                     </Button>
                 </div>
             </div>
         </section>
