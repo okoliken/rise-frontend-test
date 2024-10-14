@@ -37,7 +37,7 @@ export const AssetClasses = () => {
                         <span className="text-[#919fb5]"> Risk Level: Medium</span>
                     </p>
 
-                    <div className="flex items-center justify-center transform lg:translate-y-12">
+                    <div className="flex items-center justify-center transform lg:translate-y-11">
                         <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6 cursor-pointer hover:underline">
                             <span>Learn how Stocks work</span>
                             <svg
@@ -73,7 +73,7 @@ export const AssetClasses = () => {
                         <span className="text-[#919fb5]"> Risk Level: Medium</span>
                     </p>
 
-                    <div className="flex items-center justify-center transform lg:translate-y-12">
+                    <div className="flex items-center justify-center transform lg:translate-y-11">
                         <p className="text-teal-1 text-center font-semibold flex items-center justify-center gap-x-2.5 pt-6 cursor-pointer hover:underline">
                             <span>Learn how Real Estate work</span>
                             <svg
